@@ -1,0 +1,124 @@
+* {
+  font-family: 'Lato', sans-serif; }
+
+header {
+  padding: 3%; }
+  header .navbar {
+    background-color: #fff;
+    border: 1px solid #C7C7C7;
+    margin-bottom: 0; }
+  header ul {
+    padding: 1%; }
+
+aside {
+  height: 600px;
+  background: url(../images/1920x665-1.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; }
+  aside .opacity {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 600px; }
+  aside .centro {
+    padding-top: 13%;
+    padding-left: 4%; }
+  aside .centro h1 {
+    font-size: 4em;
+    color: #fff; }
+  aside .centro p {
+    margin: 4% 0 6% 0;
+    color: #fff; }
+  aside .centro a {
+    padding: 3%;
+    margin: 3% 2%;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: transparent;
+    text-decoration: none;
+    color: #3CB1F6;
+    border: 2px solid #3CB1F6; }
+  aside .centro a:hover {
+    background-color: #3CB1F6;
+    color: #fff;
+    border: none; }
+
+section .border {
+  border: 1px solid #C7C7C7;
+  padding: 3%;
+  margin-top: 5%; }
+section .border .btn {
+  padding: 3%;
+  margin: 3% 2%;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: transparent;
+  text-decoration: none;
+  color: #3CB1F6;
+  border: 2px solid #3CB1F6; }
+section .btn:hover {
+  color: #fff;
+  background-color: #3CB1F6; }
+section .info {
+  background-color: #F6F6F6;
+  margin-top: 5%;
+  padding: 5%; }
+section .dos {
+  margin-top: 5%; }
+
+footer {
+  padding: 4%; }
+  footer .caja-redes a {
+    font-size: 20px; }
+  footer .icon-button {
+    border-radius: 3em;
+    cursor: pointer;
+    display: inline-block;
+    height: 3em;
+    position: relative;
+    width: 3em;
+    border: 2px solid #3CB1F6; }
+  footer .icon-button span {
+    border-radius: 0;
+    display: block;
+    height: 0;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 0; }
+  footer .icon-button:hover span {
+    width: 3em;
+    height: 3em;
+    border-radius: 3em;
+    margin: -1.5em; }
+  footer .twitter span {
+    background-color: #4099ff; }
+  footer .facebook span {
+    background-color: #3B5998; }
+  footer .google-plus span {
+    background-color: #db5a3c; }
+  footer .instagram span {
+    background-color: #DF7401; }
+  footer .icon-button i {
+    background: none;
+    color: #3CB1F6;
+    left: 0;
+    line-height: 3em;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 3em;
+    z-index: 2; }
+  footer .icon-button i:hover {
+    color: #fff; }
+
+/*# sourceMappingURL=main.css.map */

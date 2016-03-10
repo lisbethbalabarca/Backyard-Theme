@@ -1,0 +1,152 @@
+$blanco:#fff;
+$gray:#C7C7C7;
+$sky: #3CB1F6;
+$plomito: #F6F6F6;
+
+*{font-family: 'Lato', sans-serif;}
+
+header{
+	padding: 3%;
+	.navbar{
+		background-color: $blanco;
+		border: 1px solid $gray;
+		margin-bottom: 0;
+	}
+	ul{
+		padding: 1%;
+	}
+}
+aside{
+	height: 600px;
+	background: url(../images/1920x665-1.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	.opacity {
+	background-color: rgba(0, 0, 0, 0.50);
+	height: 600px;
+	}
+	.centro{
+		padding-top: 13%;
+		padding-left: 4%;
+	}	
+	.centro h1{
+		font-size: 4em;
+		color: $blanco;
+	}
+	.centro p{
+		margin: 4% 0 6% 0;
+		color: $blanco;
+	}
+	.centro a{
+		padding: 3%;
+		margin: 3% 2%;
+		border-radius: 15px;
+		font-weight: bold;
+		font-size: 16px;
+		background-color: transparent;
+		text-decoration: none;
+		color: $sky;
+		border: 2px solid $sky;
+	}
+	.centro a:hover{
+		background-color: $sky;
+		color: $blanco;
+		border: none;
+	}
+}
+section{
+	.border{
+		border:1px solid $gray;
+		padding: 3%;
+		margin-top: 5%;
+	}
+	.border .btn{
+		padding: 3%;
+		margin: 3% 2%;
+		border-radius: 15px;
+		font-weight: bold;
+		font-size: 16px;
+		background-color: transparent;
+		text-decoration: none;
+		color: $sky;
+		border: 2px solid $sky;
+	}
+	.btn:hover{
+		color: $blanco;
+		background-color: $sky;
+	}
+	.info{
+		background-color: $plomito;
+		margin-top: 5%;
+		padding: 5%; 
+	}
+	.dos{
+		margin-top: 5%;
+	}
+}
+footer{
+	padding:4%;
+	.caja-redes a{
+		font-size: 20px;
+	}
+	.icon-button {
+		border-radius: 3em;
+		cursor: pointer;
+		display: inline-block;
+		height: 3em;
+		position: relative;
+		width: 3em;
+		border: 2px solid $sky;
+	}
+	.icon-button span {
+		border-radius: 0;
+		display: block;
+		height: 0;
+		left: 50%;
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+		width: 0;
+	}
+	.icon-button:hover span {
+		width: 3em;
+		height: 3em;
+		border-radius: 3em;
+		margin: -1.5em;
+	}
+	.twitter span {
+		background-color: #4099ff;
+	}
+	.facebook span {
+		background-color: #3B5998;
+	}
+	.google-plus span {
+		background-color: #db5a3c;
+	}
+	.instagram span{
+		background-color: #DF7401;
+	}
+	.icon-button i {
+		background: none;
+		color: $sky;
+		left: 0;
+		line-height: 3em;
+		position: absolute;
+		top: 0;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+		width: 3em;
+		z-index: 2;
+	}
+	.icon-button i:hover{
+		color: $blanco;
+	}
+}
+
